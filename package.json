@@ -1,6 +1,6 @@
 {
   "name": "faster-byte-hex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Faster parseInt and toString for byte-hex conversion",
   "main": "index.common.js",
   "scripts": {

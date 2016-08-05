@@ -23,6 +23,3 @@ node_modules/
 .babelrc
 .eslint
 benchmark.js
-
-# README
-*.md
