@@ -1,8 +1,8 @@
 {
   "name": "faster-byte-hex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Faster parseInt and toString for byte-hex conversion",
-  "main": "index.js",
+  "main": "index.common.js",
   "scripts": {
     "test": "babel-node benchmark.js",
     "build": "babel index.js > index.common.js"
