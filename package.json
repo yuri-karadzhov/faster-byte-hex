@@ -1,0 +1,32 @@
+{
+  "name": "faster-byte-hex",
+  "version": "1.0.0",
+  "description": "Faster parseInt and toString for byte-hex conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node benchmark.js",
+    "build": "babel index.js > index.common.js"
+  },
+  "keywords": [
+    "toString",
+    "toString16",
+    "parseInt",
+    "parsInt16",
+    "byte",
+    "hex",
+    "string",
+    "binary"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuri-karadzhov/faster-byte-hex.git"
+  },
+  "author": "Yuri Karadzhov",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015-node6": "^0.2.0",
+    "benchmark": "^2.1.1"
+  }
+}

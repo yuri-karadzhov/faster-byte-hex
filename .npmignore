@@ -1,0 +1,28 @@
+# NODEJS
+node_modules/
+
+# IDE
+.idea
+.tern-project
+*.sublime-project
+*.sublime-workspace
+*.sqlite3
+
+# OS
+.DS_Store
+.localized
+.directory
+
+# LOG
+*.log
+
+# CACHE
+*.sass-cache
+
+# DEV STUFF
+.babelrc
+.eslint
+benchmark.js
+
+# README
+*.md
